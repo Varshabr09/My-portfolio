@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #222;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background 0.3s ease;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        /* Page Content Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+    max-width: 100%; /* Make it span full width */
+    width: 100%; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .project {
+            background: #fff;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .project h2 {
+            color: #007bff;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html.html">Home</a></li>
+            <li><a href="about.html.html">About Me</a></li>
+            <li><a href="projects.html.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>My Projects</h1>
+
+        <div class="project">
+            <h2>Pesticide detection in fresh fruits and vegetables</h2>
+            <p>Detecting Pesticide level in fresh fruits and vegetables using arduino uno,dht11 sensor,gas sensor,ir sensor.We have used convyeor belt for sorting mechanism of good or bad fruit and vegetable.</p>
+            <p><strong>Technologies Used:</strong> arduino ide</p>
+            <p><a href="https://github.com/Varshabr09/Pesticide-detection-in-fresh-fruits-and-vegetables-" target="_blank">GitHub Repo</a>
+        </div>
+
+        <div class="project">
+            <h2>Face recognition attendance system using python</h2>
+            <p>A face recognition attendance system uses camera and software to automatically identify and record people's attendance by recognizing their faces.</p>
+            <p><strong>Technologies Used:</strong> Python</p>
+            <p><a href="https://github.com/Varshabr09/Face-recognition-attendance-system-using-python" target="_blank">GitHub Repo</a>
+        </div>
+    </div>
+
+</body>
+</html>
