@@ -9,7 +9,6 @@ View Portfolio (https://my-portfolio-varsha-b-rs-projects.vercel.app/)
 This is a personal portfolio website where I showcase:
 	•	📝 My latest projects
 	•	💡 My skills and experiences
-	•	📫 Ways to contact me
 
 ⚡ Technologies Used
 	•	HTML5 - Structure of the website
